@@ -8,12 +8,15 @@ class UpdateProductRequest extends BaseFormRequest
 {
     public function rules()
     {
+        $request = request();
         $rule = [
             'name' => 'required',
             'price' => 'required|numeric',
-            'image' => 'required|image',
             'description' => 'required',
         ];
+        if(isset($request->image)) {
+            $rule['image'] = 'image';
+        }
         return $rule;
     }
 

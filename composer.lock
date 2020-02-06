@@ -1232,12 +1232,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Idavoll/Core.git",
-                "reference": "8ff97284005b7f1055d943ad8f135af6a5a598b3"
+                "reference": "f47d68b232e5bb1e1dbca190c15394d568db6fae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Idavoll/Core/zipball/8ff97284005b7f1055d943ad8f135af6a5a598b3",
-                "reference": "8ff97284005b7f1055d943ad8f135af6a5a598b3",
+                "url": "https://api.github.com/repos/Idavoll/Core/zipball/f47d68b232e5bb1e1dbca190c15394d568db6fae",
+                "reference": "f47d68b232e5bb1e1dbca190c15394d568db6fae",
                 "shasum": ""
             },
             "require": {
@@ -1284,7 +1284,7 @@
                 "asgardcms",
                 "core"
             ],
-            "time": "2020-01-14T20:00:38+00:00"
+            "time": "2020-02-04T23:27:08+00:00"
         },
         {
             "name": "idavoll/dashboard-module",
@@ -1378,12 +1378,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Idavoll/Media.git",
-                "reference": "b9f3990b01d7ca93105be6a0e89a8f7bec1177a0"
+                "reference": "ec9518c08299e4ce07876fd460b847910a04052e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Idavoll/Media/zipball/b9f3990b01d7ca93105be6a0e89a8f7bec1177a0",
-                "reference": "b9f3990b01d7ca93105be6a0e89a8f7bec1177a0",
+                "url": "https://api.github.com/repos/Idavoll/Media/zipball/ec9518c08299e4ce07876fd460b847910a04052e",
+                "reference": "ec9518c08299e4ce07876fd460b847910a04052e",
                 "shasum": ""
             },
             "require": {
@@ -1427,7 +1427,7 @@
                 "library",
                 "media"
             ],
-            "time": "2019-10-28T19:37:13+00:00"
+            "time": "2020-02-04T23:27:08+00:00"
         },
         {
             "name": "idavoll/menu-module",
@@ -1488,12 +1488,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Idavoll/Page.git",
-                "reference": "0a68969c6d88e88be3562bb9ae3f2b0e93874abe"
+                "reference": "37329cc234fa4da930279aa2679d4b2257f0dd30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Idavoll/Page/zipball/0a68969c6d88e88be3562bb9ae3f2b0e93874abe",
-                "reference": "0a68969c6d88e88be3562bb9ae3f2b0e93874abe",
+                "url": "https://api.github.com/repos/Idavoll/Page/zipball/37329cc234fa4da930279aa2679d4b2257f0dd30",
+                "reference": "37329cc234fa4da930279aa2679d4b2257f0dd30",
                 "shasum": ""
             },
             "require": {
@@ -1527,7 +1527,7 @@
                 "asgardcms",
                 "pages"
             ],
-            "time": "2019-10-27T22:42:19+00:00"
+            "time": "2020-02-04T20:39:35+00:00"
         },
         {
             "name": "idavoll/setting-module",
@@ -1682,12 +1682,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Idavoll/User.git",
-                "reference": "1db178541a4d1acf7c284277de7a1259335d1888"
+                "reference": "2a537469424e9f9a8355439235e8e89fc07afcf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Idavoll/User/zipball/1db178541a4d1acf7c284277de7a1259335d1888",
-                "reference": "1db178541a4d1acf7c284277de7a1259335d1888",
+                "url": "https://api.github.com/repos/Idavoll/User/zipball/2a537469424e9f9a8355439235e8e89fc07afcf8",
+                "reference": "2a537469424e9f9a8355439235e8e89fc07afcf8",
                 "shasum": ""
             },
             "require": {
@@ -1732,7 +1732,7 @@
                 "authorisation",
                 "user"
             ],
-            "time": "2019-10-27T22:42:19+00:00"
+            "time": "2020-02-04T20:39:35+00:00"
         },
         {
             "name": "idavoll/workshop-module",
@@ -2537,16 +2537,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.63",
+            "version": "1.0.64",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6"
+                "reference": "d13c43dbd4b791f815215959105a008515d1a2e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8132daec326565036bc8e8d1876f77ec183a7bd6",
-                "reference": "8132daec326565036bc8e8d1876f77ec183a7bd6",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d13c43dbd4b791f815215959105a008515d1a2e0",
+                "reference": "d13c43dbd4b791f815215959105a008515d1a2e0",
                 "shasum": ""
             },
             "require": {
@@ -2558,7 +2558,7 @@
             },
             "require-dev": {
                 "phpspec/phpspec": "^3.4",
-                "phpunit/phpunit": "^5.7.10"
+                "phpunit/phpunit": "^5.7.26"
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
@@ -2617,7 +2617,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2020-01-04T16:30:31+00:00"
+            "time": "2020-02-05T18:14:17+00:00"
         },
         {
             "name": "maatwebsite/laravel-sidebar",
@@ -5758,16 +5758,16 @@
     "packages-dev": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.133.7",
+            "version": "3.133.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "cd6fb07aed2cc68088251e3c572d111d67d558a3"
+                "reference": "c564fcccd5fc7b5e8514d1cbe35558be1e3a11cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cd6fb07aed2cc68088251e3c572d111d67d558a3",
-                "reference": "cd6fb07aed2cc68088251e3c572d111d67d558a3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c564fcccd5fc7b5e8514d1cbe35558be1e3a11cd",
+                "reference": "c564fcccd5fc7b5e8514d1cbe35558be1e3a11cd",
                 "shasum": ""
             },
             "require": {
@@ -5838,7 +5838,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-02-04T19:11:15+00:00"
+            "time": "2020-02-05T19:12:47+00:00"
         },
         {
             "name": "barryvdh/laravel-debugbar",

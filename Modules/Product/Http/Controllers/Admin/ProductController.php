@@ -59,7 +59,7 @@ class ProductController extends AdminBaseController
         $image = $request->file('image');
         $nameImage = time().'.'.$image->getClientOriginalExtension();
         $destinationPath = public_path('/assets/media/');
-        $image->move($destinationPath, $name);
+        $image->move($destinationPath, $nameImage);
         
         $product = $this->product->create([
             'name'  => $request->name,
@@ -98,7 +98,7 @@ class ProductController extends AdminBaseController
             $image = $request->file('image');
             $nameImage = time().'.'.$image->getClientOriginalExtension();
             $destinationPath = public_path('/assets/media/');
-            $image->move($destinationPath, $product->name);
+            $image->move($destinationPath, $nameImage);
         };
         $this->product->update($product, [
             'name'  => $request->name,
