@@ -12,7 +12,7 @@
 @stop
 
 @section('content')
-    {!! Form::open(['route' => ['admin.product.product.update', $product->id], 'method' => 'put']) !!}
+    {!! Form::open(['files' => true, 'route' => ['admin.product.product.update', $product->id], 'method' => 'put']) !!}
     <div class="row">
         <div class="col-md-12">
             <div class="nav-tabs-custom">

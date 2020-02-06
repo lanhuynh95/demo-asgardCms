@@ -10,6 +10,7 @@ use Modules\Product\Http\Requests\UpdateProductRequest;
 use Modules\Product\Repositories\ProductRepository;
 use Modules\Core\Http\Controllers\Admin\AdminBaseController;
 use Modules\Product\Events\RecipeWasCreated;
+use File;
 
 class ProductController extends AdminBaseController
 {
@@ -56,14 +57,14 @@ class ProductController extends AdminBaseController
     public function store(CreateProductRequest $request)
     {
         $image = $request->file('image');
-        $name = time().'.'.$image->getClientOriginalExtension();
+        $nameImage = time().'.'.$image->getClientOriginalExtension();
         $destinationPath = public_path('/assets/media/');
         $image->move($destinationPath, $name);
         
         $product = $this->product->create([
             'name'  => $request->name,
             'price' => $request->price,
-            'image' => $name,
+            'image' => $nameImage,
             'description' => $request->description,
         ]);
 
@@ -91,7 +92,20 @@ class ProductController extends AdminBaseController
      */
     public function update(Product $product, UpdateProductRequest $request)
     {
-        $this->product->update($product, $request->all());
+        $nameImage = $product->image;
+        if(isset($request->image)) {
+            File::delete(public_path('/assets/media/'). $product->image);
+            $image = $request->file('image');
+            $nameImage = time().'.'.$image->getClientOriginalExtension();
+            $destinationPath = public_path('/assets/media/');
+            $image->move($destinationPath, $product->name);
+        };
+        $this->product->update($product, [
+            'name'  => $request->name,
+            'price' => $request->price,
+            'image' => $nameImage,
+            'description' => $request->description,
+        ]);
 
         return redirect()->route('admin.product.product.index')
             ->withSuccess(trans('core::core.messages.resource updated', ['name' => trans('product::products.title.products')]));

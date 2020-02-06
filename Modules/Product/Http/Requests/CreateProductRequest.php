@@ -8,7 +8,13 @@ class CreateProductRequest extends BaseFormRequest
 {
     public function rules()
     {
-        return [];
+        $rule = [
+            'name' => 'required',
+            'price' => 'required|numeric',
+            'image' => 'required|image',
+            'description' => 'required',
+        ];
+        return $rule;
     }
 
     public function translationRules()
